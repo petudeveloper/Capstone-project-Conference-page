@@ -21,7 +21,7 @@ In this project, we will replicate an archived version of the Newsweek website u
 
 - GitHub: [@petumazo](https://github.com/petumazo)
 - Twitter: [@petudeveloper](https://twitter.com/petudeveloper)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/david-alvarez-mazzo-777712143/)
+- LinkedIn: [David Alvarez](https://www.linkedin.com/in/david-alvarez-mazzo-777712143/)
 
 ## 🤝 Contributing
 
