@@ -39,4 +39,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](LICENSE.md) licensed.
+This project is [CC BY-NC-SA 4.0](LICENSE.md) licensed.
