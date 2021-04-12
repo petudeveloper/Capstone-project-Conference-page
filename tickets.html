@@ -13,6 +13,7 @@
 </head>
 <body>
     <!-- START nav bar -->
+
     <nav id="top-nav-about">
         <div id="nav-logo">
             <img src="images/logo.png" alt="sponsor logo">
@@ -26,8 +27,74 @@
             </ul>
         </div>
     </nav>
+
     <!-- END nav bar -->
+    <!-- START header -->
+
+    <header>
+        <h1>Select Tickets</h1>
+    </header>
+
+    <!-- START header -->
+    <!-- START Register -->
+    <form action="#">
+        <div id="step-1">
+            <legend>
+                <span>Step 1</span>
+                <span>Select your sojourn</span>
+            </legend>
+            <label for="sojourn">
+                <input id="sojourn" type="radio" name="select-sojourn" value="kailash2021">
+                <span>kailash 2021</span>
+                <span>- USD</span>
+                <span>$2.200</span>
+            </label>
+        </div>
+        <div id="step-2">
+            <legend>
+                <span>Step 2</span>
+                <span>Register Now</span>
+            </legend>
+            <div>
+                <h3>Personal Detail</h3>
+                <label for="name">
+                    <span>First Name</span>
+                    <input type="text" id="name" name="name" required>
+                </label>
+                <label for="last-name">
+                    <span>Last Name</span>
+                    <input type="text" id="last-name" name="last-name" required>
+                </label>
+                <label for="email">
+                    <span>E-mail</span>
+                    <input type="email" id="email" name="email" required>
+                </label>
+                <label for="phone">
+                    <span>Mobil Number</span>
+                    <input type="tel" id="phone" name="phone" required>
+                </label>
+                <label for="phone2">
+                    <span>Alternate Number</span>
+                    <input type="tel" id="phone" name="phone">
+                </label>
+                <legend>
+                    <span>Gender</span>
+                    <label for="male">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <span>male</span>
+                    </label>
+                    <label for="female">
+                        <input type="radio" id="female" name="gender" value="female">
+                        <span>female</span>
+                    </label>
+                </legend>
+            </div>
+        </div>
+    </form>
+    
+    <!-- START Register -->
     <!-- START footer -->
+
     <footer>
         <nav id="contact-us-about">
             <div id="india-contact" class="contact-info">
@@ -60,6 +127,7 @@
             <span>Designed & Built by petumazo</span>
         </div>
     </footer>
+
     <!-- END footer -->
     <!-- Bootstrap scripts-->
     <script src="js/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
