@@ -1,3 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+    font-family: cocogoose;
+    src: url(fonts/Cocogoose_trial.otf);
+}
 
-/* font-family: 'Lato', sans-serif; */
+
+body {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87)), url(/images/nav-background-phone.jpg);
+}
+
+
+ul, li, a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    
+}
+.dark-color {
+    color: #272A31;
+}
+
+.orange {
+    color: #EC5242;
+}
+
+.grey-color {
+    color: #d3d3d3;
+}
+
+.cocogoose {
+    font-family: cocogoose, sans-serif;
+}
+
+.font-size-info {
+    font-size: 2.2vw;
+}
+/* START Nav */
+.top-nav{
+    padding: 25px 45px 40px;
+    border-bottom: solid 2px rgba(238, 238, 238, 0.795);
+    background-color: rgba(245, 245, 245, 0.993);
+}
+
+.nav-logo {
+    width: 80px;
+}
+
+.fa-bars {
+    color: #272A31;
+}
+
+header {
+    margin: 170px 0 20px;
+}
+
+/* END nav */
+/* START main */
+#main-container {
+    padding: 0 45px;
+}
+
+.first-title {
+    font-size: 4.5vw;
+}
+
+.big-tittle {
+    background-image: linear-gradient(rgb(231, 85, 18), #aa22139f), url(https://fondosmil.com/fondo/24126.jpg);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 10vw;
+    font-weight: lighter;
+}
+
+.main-info {
+    background-color: #f1f1f1bb;
+    border: solid 4px #ffffff;
+}
+
+#date-info {
+    font-size: 5.5vw;
+}
+
+/* END main */
