@@ -12,12 +12,12 @@ body {
 }
 
 
-ul, li, a {
+ul, li {
     text-decoration: none;
     color: inherit;
     margin: 0;
     padding: 0;
-    
+    list-style: none;
 }
 .dark-color {
     color: #272A31;
