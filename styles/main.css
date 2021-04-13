@@ -1,159 +1,161 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@font-face {
-    font-family: cocogoose;
-    src: url(fonts/Cocogoose_trial.otf);
-}
 
+@font-face {
+  font-family: cocogoose;
+  src: url(fonts/Cocogoose_trial.otf);
+}
 
 body {
-    width: 100%;
-    font-family: 'Lato', sans-serif;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87)), url(/images/nav-background-phone.jpg);
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87)), url(/images/nav-background-phone.jpg);
 }
 
-
-ul, li {
-    text-decoration: none;
-    color: inherit;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+ul,
+li {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
+
 .dark-color {
-    color: #272A31;
+  color: #272a31;
 }
 
 .orange {
-    color: #EC5242;
+  color: #ec5242;
 }
 
 .grey-color {
-    color: #d3d3d3;
+  color: #d3d3d3;
 }
 
 .cocogoose {
-    font-family: cocogoose, sans-serif;
+  font-family: cocogoose, sans-serif;
 }
 
 .small-font-size {
-    font-size: 2.3vw;
+  font-size: 2.3vw;
 }
 
 .medium-font-size {
-    font-size: 2.7vw;
-
+  font-size: 2.7vw;
 }
 
 .big-font-size {
-    font-size: 3.3vw;
+  font-size: 3.3vw;
 }
 
 .jum {
-    text-align:justify
+  text-align: justify;
 }
 
 /* START Nav */
-.top-nav{
-    padding: 25px 45px 40px;
-    border-bottom: solid 2px rgba(238, 238, 238, 0.795);
-    background-color: rgba(245, 245, 245, 0.993);
+.top-nav {
+  padding: 25px 45px 40px;
+  border-bottom: solid 2px rgba(238, 238, 238, 0.795);
+  background-color: rgba(245, 245, 245, 0.993);
 }
 
 .nav-logo {
-    width: 80px;
+  width: 80px;
 }
 
 .fa-bars {
-    color: #272A31;
+  color: #272a31;
 }
 
 header {
-    margin: 170px 0 20px;
+  margin: 170px 0 20px;
 }
 
 /* END nav */
+
 /* START main */
 .main-container {
-    padding: 0 45px;
+  padding: 0 45px;
 }
 
 .first-title {
-    font-size: 4.5vw;
+  font-size: 4.5vw;
 }
 
 .big-tittle {
-    background-image: linear-gradient(rgb(231, 85, 18), #aa22139f), url(https://fondosmil.com/fondo/24126.jpg);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 10vw;
-    font-weight: lighter;
+  background-image: linear-gradient(rgb(231, 85, 18), #aa22139f), url(https://fondosmil.com/fondo/24126.jpg);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 10vw;
+  font-weight: lighter;
 }
 
 #main-info {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .main-info {
-    background-color: #f1f1f1bb;
-    border: solid 4px #ffffff;
+  background-color: #f1f1f1bb;
+  border: solid 4px #fff;
 }
 
 #date-info {
-    font-size: 5vw;
+  font-size: 5vw;
 }
 
-    /* START feature yogi */
-    
-    .sad-img-container {
-        width: 45vw;
-        height: 45vw;
-        display: grid;
-        grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(10, 1fr);
-        float: left;
-    }
+/* START feature yogi */
 
-    .tex-sad-img {
-        grid-column: 2/11;
-        grid-row: 10/11;
-    }
+.sad-img-container {
+  width: 45vw;
+  height: 45vw;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  float: left;
+}
 
-    .squares-feature-yogi {
-        grid-column: 1/5;
-        grid-row: 1/5;
-        width: 100%;
-    }
+.tex-sad-img {
+  grid-column: 2/11;
+  grid-row: 10/11;
+}
 
-    .sadhguru-pic {
-        grid-column: 2/11;
-        grid-row: 2/10;
-        width: 100%;
-        height: 100%;
-    }
+.squares-feature-yogi {
+  grid-column: 1/5;
+  grid-row: 1/5;
+  width: 100%;
+}
 
-    .line-orange {
-        width: 10vw;
-        border-bottom: solid 1px #EC5242;
-    }
+.sadhguru-pic {
+  grid-column: 2/11;
+  grid-row: 2/10;
+  width: 100%;
+  height: 100%;
+}
 
-    /* START feature yogi */
+.line-orange {
+  width: 10vw;
+  border-bottom: solid 1px #ec5242;
+}
+
+/* START feature yogi */
+
 /* END main */
 
 /* START footer */
 
-    footer {
-        background-color: #272A31;
-    }
+footer {
+  background-color: #272a31;
+}
 
-    .contact-us {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 10px;
-        margin-bottom: 45px;
-    }
+.contact-us {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  margin-bottom: 45px;
+}
 
-    .designed-by {
-        color: #969696;
-    }
+.designed-by {
+  color: #969696;
+}
 
 /* START footer */
