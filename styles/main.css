@@ -142,3 +142,18 @@ header {
 
     /* START feature yogi */
 /* END main */
+
+/* START footer */
+
+    footer {
+        background-color: #272A31;
+    }
+
+    .contact-us {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+        margin-bottom: 30px;
+    }
+
+/* START footer */
