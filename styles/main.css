@@ -89,6 +89,10 @@ header {
     font-weight: lighter;
 }
 
+#main-info {
+    margin-bottom: 100px;
+}
+
 .main-info {
     background-color: #f1f1f1bb;
     border: solid 4px #ffffff;
@@ -101,8 +105,8 @@ header {
     /* START feature yogi */
     
     .sad-img-container {
-        width: 30vw;
-        height: 30vw;
+        width: 45vw;
+        height: 45vw;
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: repeat(10, 1fr);
