@@ -57,38 +57,30 @@
                     <span class="orange px-2">Step 2</span>
                     <span class="grey-color"> Personal Information</span>
                 </div>
-                <div class="m-3">
-                    <label for="name">
-                        <span>First Name</span>
-                        <input type="text" id="name" name="name" required>
-                    </label>
-                    <label for="last-name">
-                        <span>Last Name</span>
-                        <input type="text" id="last-name" name="last-name" required>
-                    </label>
-                    <label for="email">
-                        <span>E-mail</span>
-                        <input type="email" id="email" name="email" required>
-                    </label>
-                    <label for="phone">
-                        <span>Mobil Number</span>
-                        <input type="tel" id="phone" name="phone" required>
-                    </label>
-                    <label for="phone2">
-                        <span>Alternate Number</span>
-                        <input type="tel" id="phone2" name="phone">
-                    </label>
-                    <div>
-                        <span>Gender</span>
-                        <label for="male">
-                            <input type="radio" id="male" name="gender" value="male">
-                            <span>male</span>
-                        </label>
-                        <label for="female">
-                            <input type="radio" id="female" name="gender" value="female">
-                            <span>female</span>
-                        </label>
-                    </div>
+                <div class="m-3 register-data">
+                    <label class="cocogoose" for="name">First Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label class="cocogoose" for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                    <label class="cocogoose" for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                    <label class="cocogoose" for="phone">Mobil Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label class="cocogoose" for="phone2">Alternate Number</label>
+                    <input type="tel" id="phone2" name="phone">
+                    <fieldset class="gender-selection">
+                        <legend class="cocogoose mb-0 medium-font-size">Gender</legend>
+                        <div class="d-flex">
+                            <label class="d-flex align-items-center me-2" for="male">
+                                <input type="radio" id="male" name="gender" value="male">
+                                <span>Male</span>
+                            </label>
+                            <label class="d-flex align-items-center mx-2" for="female">
+                                <input type="radio" id="female" name="gender" value="female">
+                                <span>Female</span>
+                            </label>
+                        </div>
+                    </fieldset>
                 </div>
             </div>
         </form>

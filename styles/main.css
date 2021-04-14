@@ -174,4 +174,16 @@ footer {
   border-radius: 30px;
 }
 
+.register-data {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  row-gap: 7px;
+}
+
+.gender-selection {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
 /* START Register */
