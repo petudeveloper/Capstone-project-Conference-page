@@ -267,13 +267,17 @@ footer {
   .grid-about {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
+    column-gap: 60px;
   }
 
   .info-grid {
     background-color: #272a31;
     color: #d3d3d3;
     border: solid 1px #ec5242;
+  }
+
+  .grid-description {
+    height: 265px;
   }
 }
 
