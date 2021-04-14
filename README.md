@@ -1,6 +1,8 @@
 # HTML-CSS-capstone-project: Conference-page
 
-In this project, we will replicate an archived version of the Newsweek website using bootstrap.
+In this project, the objective is to build the main, about, and tickets pages based on an online website for a conference. I should follow the guidelines of a given design: color swatch, typographies, and layout.
+
+The chosen subject is a spiritual journey to Mount Kailash in Nepal with the famous and international Yogi Sadhguru Jaggi Vasudev.
 
 ![screenshot](images/project-screenshot.png)
 
@@ -8,7 +10,6 @@ In this project, we will replicate an archived version of the Newsweek website u
 
 - HTML
 - CSS
-- Bootstrap
 
 ## Live Demo
 
