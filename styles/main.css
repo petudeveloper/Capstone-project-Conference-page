@@ -87,7 +87,7 @@ header {
 
 .register-btn:hover {
   background-color: rgb(231, 85, 18);
-  color: #ffffff;
+  color: #fff;
 }
 
 /* END nav */
@@ -180,7 +180,7 @@ footer {
 /* START footer */
 
 .sadhguru-suggestion {
-    background-color: #272a31;
+  background-color: #272a31;
 }
 
 /* START Register */
@@ -209,7 +209,7 @@ footer {
 
 /* START Desktop size */
 
-@media(min-width: 768px){
+@media (min-width: 768px) {
   .desktop-font-large {
     font-size: 1.5rem;
   }
@@ -239,13 +239,13 @@ footer {
     grid-row: 2/10;
   }
 
-  .sad-img-container{
+  .sad-img-container {
     float: left;
     width: 50%;
     height: 400px;
     max-width: 400px;
   }
-  
+
   .tex-sad-img {
     grid-column: 2/11;
     grid-row: 10/11;
@@ -260,7 +260,7 @@ footer {
     max-width: 900px;
   }
 
-  .container-about{
+  .container-about {
     max-width: 800px;
   }
 
