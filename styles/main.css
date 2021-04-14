@@ -260,6 +260,21 @@ footer {
     max-width: 900px;
   }
 
+  .container-about{
+    max-width: 800px;
+  }
+
+  .grid-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3px;
+  }
+
+  .info-grid {
+    background-color: #272a31;
+    color: #d3d3d3;
+    border: solid 1px #ec5242;
+  }
 }
 
 /* START Desktop size */
