@@ -88,10 +88,11 @@ header {
   color: transparent;
   font-size: 10vw;
   font-weight: lighter;
+  margin-bottom: 80px;
 }
 
 #main-info {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .main-info {
@@ -106,8 +107,7 @@ header {
 /* START feature yogi */
 
 .sad-img-container {
-  width: 45vw;
-  height: 45vw;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
@@ -115,19 +115,19 @@ header {
 }
 
 .tex-sad-img {
-  grid-column: 2/11;
+  grid-column: 1/11;
   grid-row: 10/11;
 }
 
 .squares-feature-yogi {
-  grid-column: 1/5;
-  grid-row: 1/5;
+  grid-column: 1/4;
+  grid-row: 1/4;
   width: 100%;
 }
 
 .sadhguru-pic {
-  grid-column: 2/11;
-  grid-row: 2/10;
+  grid-column: 1/11;
+  grid-row: 1/10;
   width: 100%;
   height: 100%;
 }
@@ -159,3 +159,9 @@ footer {
 }
 
 /* START footer */
+
+/* */
+
+#sadhguru-suggestion {
+    background-color: #272a31;
+}
