@@ -8,7 +8,7 @@
 body {
   width: 100%;
   font-family: 'Lato', sans-serif;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87)), url(/images/nav-background-phone.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87)), url(../images/nav-background-phone.jpg);
 }
 
 ul,
@@ -267,7 +267,7 @@ footer {
   .grid-about {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 3px;
+    column-gap: 10px;
   }
 
   .info-grid {
