@@ -160,8 +160,18 @@ footer {
 
 /* START footer */
 
-/* */
-
-#sadhguru-suggestion {
+.sadhguru-suggestion {
     background-color: #272a31;
 }
+
+/* START Register */
+
+#header-tickets {
+  margin-top: 140px;
+}
+
+.steps {
+  border-radius: 30px;
+}
+
+/* START Register */

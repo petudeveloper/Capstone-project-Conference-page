@@ -14,8 +14,6 @@
 </head>
 <body>
     <!-- START nav bar -->
-
-    <!-- START nav bar -->
     <nav class="top-nav container-fluid d-flex justify-content-between dark-color position-fixed start-0 top-0">
         <div class="d-none d-md-block">
             <img class="nav-logo" src="images/logo.png" alt="sponsor logo">
@@ -31,67 +29,71 @@
         <i class="fas fa-bars fa-2x d-md-none"></i>
     </nav>
     <!-- END nav bar -->
-    <header>
-        <h1>Select Tickets</h1>
-    </header>
-    <!-- START Register -->
-    <form action="#">
-        <h2>Register Now</h2>
-        <div id="step-1">
-            <div>
-                <h3>Step 1</h3>
-                <span>Select your sojourn</span>
+    <!-- START main -->
+    <main class="main-container">
+        <header id="header-tickets">
+            <h1 class="orange first-title text-center mb-5">Select Tickets</h1>
+        </header>
+        <!-- START Register -->
+        <form action="#" class="main-info rounded p-3 medium-font-size">
+            <div class="d-flex flex-column align-items-center pb-4 pt-2">
+                <h2 class="text-center tittle-feature-yogi text-center fw-bold fs-1">Register Now</h2>
+                <div class="line-orange"></div>
             </div>
-            <label for="sojourn">
-                <input id="sojourn" type="radio" name="select-sojourn" value="kailash2021">
-                <span>kailash 2021</span>
-                <span>- USD</span>
-                <span>$2.200</span>
-            </label>
-        </div>
-        <div id="step-2">
-            <div>
-                <span>Step 2</span>
-                <span>Register Now</span>
+            <div id="step-1">
+                <div class="steps sadhguru-suggestion p-2 text-center">
+                    <span class="orange px-2">Step 1</span>
+                    <span class="grey-color"> Select your Sojourn</span>
+                </div>
+                <label for="sojourn" class="m-3">
+                    <input id="sojourn" type="radio" name="select-sojourn" value="kailash2021">
+                    <span>kailash 2021</span>
+                    <span>- USD</span>
+                    <span>$2.200</span>
+                </label>
             </div>
-            <div>
-                <h3>Personal Detail</h3>
-                <label for="name">
-                    <span>First Name</span>
-                    <input type="text" id="name" name="name" required>
-                </label>
-                <label for="last-name">
-                    <span>Last Name</span>
-                    <input type="text" id="last-name" name="last-name" required>
-                </label>
-                <label for="email">
-                    <span>E-mail</span>
-                    <input type="email" id="email" name="email" required>
-                </label>
-                <label for="phone">
-                    <span>Mobil Number</span>
-                    <input type="tel" id="phone" name="phone" required>
-                </label>
-                <label for="phone2">
-                    <span>Alternate Number</span>
-                    <input type="tel" id="phone2" name="phone">
-                </label>
-                <div>
-                    <span>Gender</span>
-                    <label for="male">
-                        <input type="radio" id="male" name="gender" value="male">
-                        <span>male</span>
+            <div id="step-2">
+                <div class="steps sadhguru-suggestion p-2 text-center">
+                    <span class="orange px-2">Step 2</span>
+                    <span class="grey-color"> Personal Information</span>
+                </div>
+                <div class="m-3">
+                    <label for="name">
+                        <span>First Name</span>
+                        <input type="text" id="name" name="name" required>
                     </label>
-                    <label for="female">
-                        <input type="radio" id="female" name="gender" value="female">
-                        <span>female</span>
+                    <label for="last-name">
+                        <span>Last Name</span>
+                        <input type="text" id="last-name" name="last-name" required>
                     </label>
+                    <label for="email">
+                        <span>E-mail</span>
+                        <input type="email" id="email" name="email" required>
+                    </label>
+                    <label for="phone">
+                        <span>Mobil Number</span>
+                        <input type="tel" id="phone" name="phone" required>
+                    </label>
+                    <label for="phone2">
+                        <span>Alternate Number</span>
+                        <input type="tel" id="phone2" name="phone">
+                    </label>
+                    <div>
+                        <span>Gender</span>
+                        <label for="male">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <span>male</span>
+                        </label>
+                        <label for="female">
+                            <input type="radio" id="female" name="gender" value="female">
+                            <span>female</span>
+                        </label>
+                    </div>
                 </div>
             </div>
-        </div>
-    </form>
-    
-    <!-- START Register -->
+        </form>
+        <!-- START Register -->
+    </main>
     <!-- START footer -->
     <footer class="position-relative px-4 pt-5 pb-2 grey-color">
         <div class="medium-font-size text-center orange mb-4 fw-bold">
