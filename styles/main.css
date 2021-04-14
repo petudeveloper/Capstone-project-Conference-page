@@ -205,4 +205,31 @@ footer {
   grid-template-columns: 1fr 2fr;
 }
 
-/* START Register */
+/* END Register */
+
+/* START Desktop size */
+
+@media(min-width: 768px){
+  .desktop-font-large {
+    font-size: 1.5rem;
+  }
+
+  .desktop-font-normal {
+    font-size: 1rem;
+  }
+
+  .desktop-font-small {
+    font-size: 0.7rem;
+  }
+
+  .first-title {
+    font-size: 4.5vw;
+  }
+
+  .big-tittle {
+    font-size: 7vw;
+  }
+  
+}
+
+/* START Desktop size */
