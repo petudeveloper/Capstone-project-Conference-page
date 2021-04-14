@@ -95,8 +95,8 @@ header {
 }
 
 .main-info {
-  background-color: #f1f1f1bb;
-  border: solid 4px #fff;
+  background-color: #f0f0f0bb;
+  border: solid 1px rgb(212, 212, 212);
 }
 
 #date-info {
