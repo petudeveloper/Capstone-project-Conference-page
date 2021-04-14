@@ -12,7 +12,8 @@ body {
 }
 
 ul,
-li {
+li,
+a {
   text-decoration: none;
   color: inherit;
   margin: 0;
@@ -52,15 +53,19 @@ li {
   text-align: justify;
 }
 
+.hover-orange:hover {
+  color: #ec5242;
+}
+
 /* START Nav */
 .top-nav {
-  padding: 25px 45px 40px;
+  padding: 25px 30px 40px;
   border-bottom: solid 2px rgba(238, 238, 238, 0.795);
   background-color: rgba(245, 245, 245, 0.993);
 }
 
 .nav-logo {
-  width: 160px;
+  width: 130px;
 }
 
 .fa-bars {
@@ -69,6 +74,20 @@ li {
 
 header {
   margin: 170px 0 20px;
+}
+
+.pages-navigation {
+  gap: 18px;
+  font-size: 1.2rem;
+}
+
+.register-btn {
+  border: solid 1px rgb(231, 85, 18);
+}
+
+.register-btn:hover {
+  background-color: rgb(231, 85, 18);
+  color: #ffffff;
 }
 
 /* END nav */
