@@ -6,7 +6,6 @@
 }
 
 body {
-  width: 100%;
   font-family: 'Lato', sans-serif;
   background-image: linear-gradient(rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87)), url(../images/nav-background-phone.jpg);
 }
@@ -16,8 +15,6 @@ li,
 a {
   text-decoration: none;
   color: inherit;
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -60,16 +57,14 @@ a {
 /* START Nav */
 .top-nav {
   padding: 25px 30px 40px;
-  border-bottom: solid 2px rgba(238, 238, 238, 0.795);
+}
+
+.top-nav, .main-info {
   background-color: rgba(245, 245, 245, 0.993);
 }
 
 .nav-logo {
   width: 130px;
-}
-
-.fa-bars {
-  color: #272a31;
 }
 
 header {
@@ -78,7 +73,6 @@ header {
 
 .pages-navigation {
   gap: 18px;
-  font-size: 1.2rem;
 }
 
 .register-btn {
@@ -107,30 +101,26 @@ header {
   color: transparent;
   font-size: 10vw;
   font-weight: lighter;
-  margin-bottom: 80px;
 }
 
-#main-info {
+#main-info, .big-tittle {
   margin-bottom: 70px;
 }
 
 .main-info {
-  background-color: #f0f0f0bb;
   border: solid 1px rgb(212, 212, 212);
-}
-
-#date-info {
-  font-size: 5vw;
 }
 
 /* START feature yogi */
 
 .sad-img-container {
-  width: 100%;
-  display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
   float: left;
+}
+
+.sad-img-container, .contact-us, .register-data, .gender-selection, .grid-about {
+  display: grid;
 }
 
 .tex-sad-img {
@@ -141,14 +131,11 @@ header {
 .squares-feature-yogi {
   grid-column: 1/5;
   grid-row: 1/5;
-  width: 100%;
 }
 
 .sadhguru-pic {
   grid-column: 1/11;
   grid-row: 1/10;
-  width: 100%;
-  height: 100%;
 }
 
 .line-orange {
@@ -162,12 +149,11 @@ header {
 
 /* START footer */
 
-footer {
+footer, .sadhguru-suggestion, .info-grid {
   background-color: #272a31;
 }
 
 .contact-us {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
   margin-bottom: 45px;
@@ -179,9 +165,6 @@ footer {
 
 /* START footer */
 
-.sadhguru-suggestion {
-  background-color: #272a31;
-}
 
 /* START Register */
 
@@ -189,19 +172,13 @@ footer {
   margin-top: 140px;
 }
 
-.steps {
-  border-radius: 30px;
-}
-
 .register-data {
-  display: grid;
   grid-template-columns: 1fr 2fr;
   row-gap: 7px;
 }
 
 .gender-selection {
   grid-column: 1/3;
-  display: grid;
   grid-template-columns: 1fr 2fr;
 }
 
@@ -222,10 +199,6 @@ footer {
     font-size: 1rem;
   }
 
-  .desktop-font-small {
-    font-size: 0.7rem;
-  }
-
   .first-title {
     font-size: 4.5vw;
   }
@@ -241,7 +214,6 @@ footer {
 
   .sad-img-container {
     float: left;
-    width: 50%;
     height: 400px;
     max-width: 400px;
   }
@@ -252,12 +224,7 @@ footer {
   }
 
   #date-info {
-    font-size: 1rem;
     margin-top: 70px !important;
-  }
-
-  #container-single-feature {
-    max-width: 900px;
   }
 
   .container-about {
@@ -265,14 +232,11 @@ footer {
   }
 
   .grid-about {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 60px;
   }
 
   .info-grid {
-    background-color: #272a31;
-    color: #d3d3d3;
     border: solid 1px #ec5242;
   }
 
