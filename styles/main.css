@@ -67,9 +67,9 @@ a {
   width: 130px;
 }
 
-header {
-  margin: 170px 0 20px;
-}
+/*header {
+  
+}*/
 
 .pages-navigation {
   gap: 18px;
@@ -88,6 +88,7 @@ header {
 
 /* START main */
 .main-container {
+  margin: 170px 0 20px; 
   padding: 0 45px;
 }
 
