@@ -28,11 +28,13 @@ To get a local copy up and running follow these simple steps.
 
 ### Setup
 
--Download/Clone the repository files and navigate to index.html.
+-Download/Clone the repository files and navigate to index.html
 
-### Install
+-You can clone the repo by using this command on your terminal: 
+>git clone https://github.com/petumazo/Capstone-project-Conference-page.git
 
--Clone the repo by using one this command on your terminal: $ git clone https://github.com/petumazo/Capstone-project-Conference-page.git
+-You can also download this repo as in a ZIP file following this instructions:
+>![screenshot](images/download-instructions.png)
 
 
 ## Authors
