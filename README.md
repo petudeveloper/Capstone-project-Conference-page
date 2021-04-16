@@ -32,11 +32,11 @@ To get a local copy up and running follow these simple steps.
 
 ### Instructions
 -You can clone the repo by using this commands on your terminal: 
-> **cd** To navigate to the directory you want to clone your repo.
-> **mkdir** to make a new directory.
-> To navigate one level up **..**
-> **ls** to provide a list of all files with a directory
->**git clone https://github.com/petumazo/Capstone-project-Conference-page.git** To clone the repository
+> - **cd** To navigate to the directory you want to clone your repo.
+> - **mkdir** to make a new directory.
+> - To navigate one level up **..**
+> - **ls** to provide a list of all files with a directory
+> - **git clone https://github.com/petumazo/Capstone-project-Conference-page.git** To clone the repository
 
 -You can also download this repo as a ZIP file following this instructions:
 >![screenshot](images/download-instructions.png)
