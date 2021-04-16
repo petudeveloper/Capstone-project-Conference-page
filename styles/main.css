@@ -151,34 +151,33 @@ section,
 
 /* START feature yogi */
 
-.sad-img-container {
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  float: left;
-}
-
-.sad-img-container,
 .contact-us,
 .register-data,
 .gender-selection,
-.grid-about {
+.grid-about,
+.container-speaker-img {
   display: grid;
-}
-
-.sadhguru-pic {
-  grid-column: 2/11;
-  grid-row: 2/10;
-  height: 100%;
-}
-
-.squares-feature-yogi {
-  grid-column: 1/5;
-  grid-row: 1/5;
 }
 
 .line-orange {
   width: 10vw;
   border-bottom: solid 1px #ec5242;
+}
+
+.container-speaker-img {
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  max-height: 150px;
+}
+
+.square-background {
+  grid-column: 1/10;
+  grid-row: 1/10;
+}
+
+.speacker-img {
+  grid-column: 3/21;
+  grid-row: 3/21;
 }
 
 /* END feature yogi */
@@ -257,13 +256,6 @@ section,
 
   .big-tittle {
     font-size: 7vw;
-  }
-
-  .sad-img-container {
-    float: left;
-    height: 400px;
-    max-width: 400px;
-    max-height: 384px;
   }
 
   .container-about {
