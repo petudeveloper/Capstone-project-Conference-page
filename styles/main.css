@@ -93,10 +93,6 @@ footer,
   display: none;
 }
 
-.fa-bars:hover .dropdown {
-  display: block;
-}
-
 /* END nav */
 
 /* START main */
@@ -142,9 +138,13 @@ section,
 
 .single-program,
 .partner,
-.dark-footer, 
+.dark-footer,
 .dropdown {
   background-color: #272a31e7;
+}
+
+.fa-bars:hover .dropdown {
+  display: block;
 }
 
 /* END  Main Program */
