@@ -15,7 +15,8 @@
 <body class="w-100">
     <!-- START nav bar -->
     <header>
-        <nav class="top-nav container-fluid d-flex align-items-center border-bottom justify-content-between dark-color position-fixed start-0 top-0">
+        <!-- START nav bar -->
+        <nav class="top-nav container-fluid d-flex align-items-center justify-content-between dark-color position-fixed border-bottom start-0 top-0">
             <a href="https://petumazo.github.io/portafolio/" target="_blank" rel="nofollow noopener noreferrer" class="d-none d-md-block">
                 <img class="nav-logo" src="images/logo.png" alt="sponsor logo">
             </a>
@@ -26,8 +27,17 @@
                     <li><a href="tickets.html" class="hover-orange">Tickets</a></li>
                 </ul>
             </div>
-            <i class="fas fa-bars fa-2x d-md-none"></i>
+            <div class="dropdown-container ms-5 position-relative">
+                <i class="fas fa-bars fa-2x d-md-none"></i>
+                <ul class="p-3 rounded fs-5 cocogoose dropdown grey-color position-absolute text-center">
+                    <li class="mb-4"><a href="index.html" class="hover-orange"><i class="fas fa-home"></i></a></li>
+                    <li class="my-4"><a href="about.html" class="hover-orange"><span>About</span></a></li>
+                    <li class="mt-4"><a href="tickets.html" class="hover-orange">Tickets</a></li>
+                </ul>
+                
+            </div>
         </nav>
+        <!-- END nav bar -->
     </header>
     <!-- END nav bar -->
     <!-- START main -->
@@ -84,7 +94,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center mt-5 my-3">
-                <button type="submit" class="desktop-font-medium px-4 py-2 register-btn">Submit</button>
+                <button type="submit" class="desktop-font-medium px-4 py-2 register-btn fw-bold">Submit</button>
             </div>
         </form>
         <!-- START Register -->
