@@ -52,7 +52,49 @@
                     <span class="orange px-2 fw-bold">Step 1</span>
                     <span class="dark-color"> Select your Sojourn</span>
                 </div>
-                <div class="d-flex mx-3 desktop-font-medium border">
+                <div class="lines-background p-1 mb-5">
+                    <div class="m-0 register-data p-3">
+                        <label class="cocogoose desktop-font-medium " for="name">First Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <label class="cocogoose desktop-font-medium " for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                        <label class="cocogoose desktop-font-medium" for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                        <label class="cocogoose desktop-font-medium" for="phone">Mobil Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        <label class="cocogoose desktop-font-medium" for="phone2">Alternate Number</label>
+                        <input type="tel" id="phone2" name="phone">
+                        <fieldset class="gender-selection">
+                            <legend class="cocogoose desktop-font-medium mb-0 medium-font-size">Gender</legend>
+                            <div class="d-flex">
+                                <label class="d-flex align-items-center me-2" for="male">
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <span class="desktop-font-medium">Male</span>
+                                </label>
+                                <label class="d-flex align-items-center mx-2" for="female">
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <span class="desktop-font-medium">Female</span>
+                                </label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="step-divider">
+                <div class="ticket-icon-container">
+                    <img src="./images/tickets-icon.png" alt="icon" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center mt-5 pb-4 pt-2">
+                <h2 class="text-center tittle-feature-yogi text-center fw-bold fs-1">Registration Assistance</h2>
+                <div class="line-orange"></div>
+            </div>
+            <div id="step-2">
+                <div class="steps border border-secondary p-2 text-center desktop-font-large rounded-pill">
+                    <span class="orange px-2 fw-bold">Step 2</span>
+                    <span class="dark-color"> Personal Information</span>
+                </div>
+                <div class="d-flex mx-3 desktop-font-medium border mt-3">
                     <span class="col-6 text-center px-3 py-1 border-end fw-bold bg-tickets">Tickets</span>
                     <span class="col-6 text-center px-3 py-1 border-end fw-bold bg-tickets">Price</span>
                 </div>
@@ -87,50 +129,8 @@
                     </span>
                 </label>
             </div>
-            <div class="step-divider">
-                <div class="ticket-icon-container">
-                    <img src="./images/tickets-icon.png" alt="icon" class="w-100">
-                </div>
-            </div>
-            <div class="d-flex flex-column align-items-center pb-4 pt-2">
-                <h2 class="text-center tittle-feature-yogi text-center fw-bold fs-1">Registration Assistance</h2>
-                <div class="line-orange"></div>
-            </div>
-            <div id="step-2">
-                <div class="steps border border-secondary p-2 text-center desktop-font-large rounded-pill">
-                    <span class="orange px-2 fw-bold">Step 2</span>
-                    <span class="dark-color"> Personal Information</span>
-                </div>
-                <div class="lines-background p-1 mt-4">
-                    <div class="m-0 register-data p-3">
-                        <label class="cocogoose desktop-font-medium " for="name">First Name</label>
-                        <input type="text" id="name" name="name" required>
-                        <label class="cocogoose desktop-font-medium " for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name" required>
-                        <label class="cocogoose desktop-font-medium" for="email">E-mail</label>
-                        <input type="email" id="email" name="email" required>
-                        <label class="cocogoose desktop-font-medium" for="phone">Mobil Number</label>
-                        <input type="tel" id="phone" name="phone" required>
-                        <label class="cocogoose desktop-font-medium" for="phone2">Alternate Number</label>
-                        <input type="tel" id="phone2" name="phone">
-                        <fieldset class="gender-selection">
-                            <legend class="cocogoose desktop-font-medium mb-0 medium-font-size">Gender</legend>
-                            <div class="d-flex">
-                                <label class="d-flex align-items-center me-2" for="male">
-                                    <input type="radio" id="male" name="gender" value="male">
-                                    <span class="desktop-font-medium">Male</span>
-                                </label>
-                                <label class="d-flex align-items-center mx-2" for="female">
-                                    <input type="radio" id="female" name="gender" value="female">
-                                    <span class="desktop-font-medium">Female</span>
-                                </label>
-                            </div>
-                        </fieldset>
-                    </div>
-                </div>
-            </div>
             <div class="d-flex justify-content-center mt-5 my-3">
-                <button type="submit" class="desktop-font-medium px-4 py-2 register-btn fw-bold grey-color">Submit</button>
+                <button type="submit" class="desktop-font-medium px-4 py-2 register-btn fw-bold text-light">Submit</button>
             </div>
         </form>
         <!-- START Register -->
