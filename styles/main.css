@@ -114,12 +114,17 @@ section,
   background-image: linear-gradient(rgb(231, 85, 18), #aa22139f), url(https://fondosmil.com/fondo/24126.jpg);
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 10vw;
   font-weight: lighter;
 }
 
-#main-info,
+.big-title-size,
 .big-tittle {
+  font-size: 10vw;
+}
+
+#main-info,
+.big-tittle,
+.big-title-size {
   margin-bottom: 70px;
 }
 
@@ -259,7 +264,8 @@ section,
     font-size: 4.5vw;
   }
 
-  .big-tittle {
+  .big-tittle,
+  .big-title-size {
     font-size: 7vw;
   }
 
