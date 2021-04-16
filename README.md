@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Install
 
--No installation required
+-Clone the repo by using one this command on your terminal: $ git clone https://github.com/petumazo/Capstone-project-Conference-page.git
 
 
 ## Authors
