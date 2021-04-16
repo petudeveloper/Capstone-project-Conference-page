@@ -88,6 +88,15 @@ footer,
   background-color: #f3f3f3;
 }
 
+.dropdown {
+  left: -150%;
+  display: none;
+}
+
+.fa-bars:hover .dropdown {
+  display: block;
+}
+
 /* END nav */
 
 /* START main */
@@ -133,7 +142,8 @@ section,
 
 .single-program,
 .partner,
-.dark-footer {
+.dark-footer, 
+.dropdown {
   background-color: #272a31e7;
 }
 
