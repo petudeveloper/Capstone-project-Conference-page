@@ -80,11 +80,12 @@ footer,
 
 .register-btn {
   background-color: rgb(231, 85, 18);
+  border: solid 1px rgb(231, 85, 18);
 }
 
 .register-btn:hover {
-  border: solid 1px #f5f3f3;
-  color: #d3d3d3;
+  color: #272a31;
+  background-color: #f3f3f3;
 }
 
 /* END nav */
