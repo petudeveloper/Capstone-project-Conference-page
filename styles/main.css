@@ -63,33 +63,36 @@ a {
   background-color: rgba(245, 245, 245, 0.993);
 }
 
+footer {
+  background-color: #f5f3f3;
+}
+
 .nav-logo {
   width: 130px;
 }
-
-/*header {
-  
-}*/
 
 .pages-navigation {
   gap: 18px;
 }
 
 .register-btn {
-  border: solid 1px rgb(231, 85, 18);
+  background-color: rgb(231, 85, 18);
 }
 
 .register-btn:hover {
-  background-color: rgb(231, 85, 18);
-  color: #fff;
+  border: solid 1px #f5f3f3;
+  color: #d3d3d3;
 }
 
 /* END nav */
 
 /* START main */
 .main-container {
-  margin: 170px 0 20px; 
-  padding: 0 45px;
+  margin-top: 170px;
+}
+
+section, .first-title {
+  padding: 0 30px;
 }
 
 .first-title {
@@ -112,6 +115,21 @@ a {
   border: solid 1px rgb(212, 212, 212);
 }
 
+/* END  Main Program */
+
+.main-program {
+  background-image: linear-gradient(#272a31ec, #272a31ec), url(../images/rombus.jpg);
+}
+
+.container-icon-program {
+  max-width: 57px;
+}
+
+.single-program, .partner {
+  background-color: #272a31e7;
+}
+
+/* END  Main Program */
 /* START feature yogi */
 
 .sad-img-container {
@@ -150,7 +168,7 @@ a {
 
 /* START footer */
 
-footer, .sadhguru-suggestion, .info-grid {
+.sadhguru-suggestion, .info-grid, .main-program {
   background-color: #272a31;
 }
 
@@ -168,10 +186,6 @@ footer, .sadhguru-suggestion, .info-grid {
 
 
 /* START Register */
-
-#header-tickets {
-  margin-top: 140px;
-}
 
 .register-data {
   grid-template-columns: 1fr 2fr;
@@ -222,10 +236,6 @@ footer, .sadhguru-suggestion, .info-grid {
   .tex-sad-img {
     grid-column: 2/11;
     grid-row: 10/11;
-  }
-
-  #date-info {
-    margin-top: 70px !important;
   }
 
   .container-about {
