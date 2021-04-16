@@ -223,6 +223,19 @@ section,
 
 /* END Register */
 
+/* START Ticket */
+
+.ticket-icon-container {
+  width: 60px;
+}
+
+.step-divider {
+  display: flex;
+  justify-content: center;
+}
+
+/* START Ticket */
+
 /* START Desktop size */
 
 @media (min-width: 768px) {
