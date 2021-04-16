@@ -245,6 +245,15 @@ section,
 
 /* END Ticket */
 
+/* START About */
+
+.grid-description {
+  background-image: linear-gradient(rgba(145, 2, 2, 0.685), rgba(145, 2, 2, 0.685)), url(../images/kailash-2.jpg);
+  height: 265px;
+} 
+
+/* END About */
+
 /* START Desktop size */
 
 @media (min-width: 768px) {
@@ -280,10 +289,6 @@ section,
 
   .info-grid {
     border: solid 1px #ec5242;
-  }
-
-  .grid-description {
-    height: 265px;
   }
 }
 
