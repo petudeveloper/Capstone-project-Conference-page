@@ -59,11 +59,14 @@ a {
   padding: 25px 30px 40px;
 }
 
-.top-nav, .main-info {
+.top-nav,
+.main-info {
   background-color: rgba(245, 245, 245, 0.993);
 }
 
-footer, .steps, .register-data {
+footer,
+.steps,
+.register-data {
   background-color: #f5f3f3;
 }
 
@@ -91,7 +94,8 @@ footer, .steps, .register-data {
   margin-top: 170px;
 }
 
-section, .first-title {
+section,
+.first-title {
   padding: 0 30px;
 }
 
@@ -107,7 +111,8 @@ section, .first-title {
   font-weight: lighter;
 }
 
-#main-info, .big-tittle {
+#main-info,
+.big-tittle {
   margin-bottom: 70px;
 }
 
@@ -125,11 +130,14 @@ section, .first-title {
   max-width: 57px;
 }
 
-.single-program, .partner, .dark-footer {
+.single-program,
+.partner,
+.dark-footer {
   background-color: #272a31e7;
 }
 
 /* END  Main Program */
+
 /* START feature yogi */
 
 .sad-img-container {
@@ -138,7 +146,11 @@ section, .first-title {
   float: left;
 }
 
-.sad-img-container, .contact-us, .register-data, .gender-selection, .grid-about {
+.sad-img-container,
+.contact-us,
+.register-data,
+.gender-selection,
+.grid-about {
   display: grid;
 }
 
@@ -168,7 +180,9 @@ section, .first-title {
 
 /* START footer */
 
-.sadhguru-suggestion, .info-grid, .main-program {
+.sadhguru-suggestion,
+.info-grid,
+.main-program {
   background-color: #272a31;
 }
 
@@ -259,7 +273,6 @@ section, .first-title {
   .grid-description {
     height: 265px;
   }
-
 }
 
 /* START Desktop size */
