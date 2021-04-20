@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+  font-family: cocogoose;
+  src: url(fonts/Cocogoose_trial.otf);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87)), url(../images/nav-background-phone.jpg);
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+}
+
+.dark-color {
+  color: #272a31;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.grey-color {
+  color: #d3d3d3;
+}
+
+.cocogoose {
+  font-family: cocogoose, sans-serif;
+}
+
+.small-font-size {
+  font-size: 2vw;
+}
+
+.medium-font-size {
+  font-size: 1rem;
+}
+
+.big-font-size {
+  font-size: 1.5rem;
+}
+
+.jum {
+  text-align: justify;
+}
+
+.hover-orange:hover {
+  color: #ec5242;
+}
+
+/* START Nav */
+.top-nav {
+  padding: 25px 30px 40px;
+}
+
+.top-nav,
+.main-info,
+.bg-tickets {
+  background-color: rgba(245, 245, 245, 0.993);
+}
+
+footer,
+.steps,
+.register-data {
+  background-color: #f5f3f3;
+}
+
+.nav-logo {
+  width: 130px;
+}
+
+.pages-navigation {
+  gap: 18px;
+}
+
+.register-btn {
+  background-color: rgb(231, 85, 18);
+  border: solid 1px rgb(231, 85, 18);
+}
+
+.register-btn:hover {
+  color: #272a31;
+  background-color: #f3f3f3;
+}
+
+.dropdown {
+  left: -150%;
+  display: none;
+}
+
+/* END nav */
+
+/* START main */
+.main-container {
+  margin-top: 170px;
+}
+
+section,
+.first-title {
+  padding: 0 30px;
+}
+
+.first-title {
+  font-size: 4.5vw;
+}
+
+.big-tittle {
+  background-image: linear-gradient(rgb(231, 85, 18), #aa22139f), url(https://fondosmil.com/fondo/24126.jpg);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: lighter;
+}
+
+.big-title-size,
+.big-tittle {
+  font-size: 10vw;
+}
+
+#main-info,
+.big-tittle,
+.big-title-size {
+  margin-bottom: 70px;
+}
+
+.main-info {
+  border: solid 1px rgb(212, 212, 212);
+}
+
+/* END  Main Program */
+
+.main-program {
+  background-image: linear-gradient(#272a31ec, #272a31ec), url(../images/rombus.jpg);
+}
+
+.container-icon-program {
+  max-width: 57px;
+}
+
+.single-program,
+.partner,
+.dark-footer,
+.dropdown {
+  background-color: #272a31e7;
+}
+
+.dropdown-container:hover .dropdown {
+  display: block;
+}
+
+/* END  Main Program */
+
+/* START feature yogi */
+
+.contact-us,
+.register-data,
+.gender-selection,
+.grid-about,
+.container-speaker-img {
+  display: grid;
+}
+
+.line-orange {
+  width: 10vw;
+  border-bottom: solid 1px #ec5242;
+}
+
+.container-speaker-img {
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  max-height: 150px;
+}
+
+.square-background {
+  grid-column: 1/10;
+  grid-row: 1/10;
+}
+
+.speacker-img {
+  grid-column: 3/21;
+  grid-row: 3/21;
+}
+
+/* END feature yogi */
+
+/* END main */
+
+/* START footer */
+
+.sadhguru-suggestion,
+.info-grid,
+.main-program {
+  background-color: #272a31;
+}
+
+.contact-us {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  margin-bottom: 45px;
+}
+
+.designed-by {
+  color: #969696;
+}
+
+/* START footer */
+
+/* START Register */
+
+.register-data {
+  grid-template-columns: 1fr 2fr;
+  row-gap: 7px;
+}
+
+.gender-selection {
+  grid-column: 1/3;
+  grid-template-columns: 1fr 2fr;
+}
+
+.lines-background {
+  background: url(../images/form-lines-background.jpg);
+}
+
+/* END Register */
+
+/* START Ticket */
+
+.ticket-icon-container {
+  width: 60px;
+}
+
+.step-divider {
+  display: flex;
+  justify-content: center;
+}
+
+.price {
+  text-decoration: line-through;
+}
+
+/* END Ticket */
+
+/* START About */
+
+.grid-description {
+  background-image: linear-gradient(rgba(145, 2, 2, 0.685), rgba(145, 2, 2, 0.685)), url(../images/kailash-2.jpg);
+  height: 265px;
+}
+
+/* END About */
+
+/* START Desktop size */
+
+@media (min-width: 768px) {
+  .desktop-font-large {
+    font-size: 1.5rem;
+  }
+
+  .desktop-font-medium {
+    font-size: 1.2rem;
+  }
+
+  .desktop-font-normal {
+    font-size: 1rem;
+  }
+
+  .first-title {
+    font-size: 4.5vw;
+  }
+
+  .big-tittle,
+  .big-title-size {
+    font-size: 7vw;
+  }
+
+  .container-about {
+    max-width: 800px;
+  }
+
+  .grid-about {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+  }
+
+  .info-grid {
+    border: solid 1px #ec5242;
+  }
+}
+
+/* START Desktop size */

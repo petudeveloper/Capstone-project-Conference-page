@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICKETS | A JOURNEY OF A LIFETIME</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- Font Aweasome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body class="w-100">
+    <!-- START nav bar -->
+    <header>
+        <!-- START nav bar -->
+        <nav class="top-nav container-fluid d-flex align-items-center justify-content-between dark-color position-fixed border-bottom start-0 top-0">
+            <a href="#" target="_blank" rel="nofollow noopener noreferrer" class="d-none d-md-block">
+                <img class="nav-logo" src="images/logo.png" alt="sponsor logo">
+            </a>
+            <div class="dropdown-container ms-5 position-relative">
+                <i class="fas fa-bars fa-2x d-md-none"></i>
+                <ul class="p-3 rounded fs-5 cocogoose dropdown grey-color position-absolute text-center">
+                    <li class="mb-4"><a href="index.html" class="hover-orange"><i class="fas fa-home"></i></a></li>
+                    <li class="my-4"><a href="about.html" class="hover-orange"><span>About</span></a></li>
+                    <li class="mt-4"><a href="tickets.html" class="hover-orange">Tickets</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <ul class="m-0 p-0 d-flex pages-navigation">
+                    <li><a href="index.html" class="hover-orange"><i class="fas fa-home"></i></a></li>
+                    <li><a href="about.html" class="hover-orange"><span>About</span></a></li>
+                    <li><a href="tickets.html" class="hover-orange">Tickets</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- END nav bar -->
+    </header>
+    <!-- END nav bar -->
+    <!-- START main -->
+    <main class="main-container d-flex flex-column align-items-center">
+        <!-- START Register -->
+        <form action="#" class="p-3 mb-5 medium-font-size container-about">
+            <div class="d-flex flex-column align-items-center pb-4 pt-2">
+                <h2 class="text-center tittle-feature-yogi text-center fw-bold fs-1">Select Tickets</h2>
+                <div class="line-orange"></div>
+            </div>
+            <div id="step-1">
+                <div class="steps border border-secondary mb-3 p-2 text-center desktop-font-large rounded-pill">
+                    <span class="orange px-2 fw-bold">Step 1</span>
+                    <span class="dark-color"> Select your Sojourn</span>
+                </div>
+                <div class="lines-background p-1 mb-5">
+                    <div class="m-0 register-data p-3">
+                        <label class="cocogoose desktop-font-medium " for="name">First Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <label class="cocogoose desktop-font-medium " for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                        <label class="cocogoose desktop-font-medium" for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                        <label class="cocogoose desktop-font-medium" for="phone">Mobil Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        <label class="cocogoose desktop-font-medium" for="phone2">Alternate Number</label>
+                        <input type="tel" id="phone2" name="phone">
+                        <fieldset class="gender-selection">
+                            <legend class="cocogoose desktop-font-medium mb-0 medium-font-size">Gender</legend>
+                            <div class="d-flex">
+                                <label class="d-flex align-items-center me-2" for="male">
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <span class="desktop-font-medium">Male</span>
+                                </label>
+                                <label class="d-flex align-items-center mx-2" for="female">
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <span class="desktop-font-medium">Female</span>
+                                </label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="step-divider">
+                <div class="ticket-icon-container">
+                    <img src="./images/tickets-icon.png" alt="icon" class="w-100">
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center mt-5 pb-4 pt-2">
+                <h2 class="text-center tittle-feature-yogi text-center fw-bold fs-1">Registration Assistance</h2>
+                <div class="line-orange"></div>
+            </div>
+            <div id="step-2">
+                <div class="steps border border-secondary p-2 text-center desktop-font-large rounded-pill">
+                    <span class="orange px-2 fw-bold">Step 2</span>
+                    <span class="dark-color"> Personal Information</span>
+                </div>
+                <div class="d-flex mx-3 desktop-font-medium border mt-3">
+                    <span class="col-6 text-center px-3 py-1 border-end fw-bold bg-tickets">Tickets</span>
+                    <span class="col-6 text-center px-3 py-1 border-end fw-bold bg-tickets">Price</span>
+                </div>
+                <label for="sojourn-gold" class="d-flex mx-3 desktop-font-medium border">
+                    <span class="col-6 text-center px-3 py-1 border-end">Kailash 2021 - Gold</span>
+                    <span class="col-6 text-center px-3 py-1 d-flex flex-column justify-content-center align-items-center orange">
+                        <span>
+                            <span class="price">USD</span>
+                            <span>$2.200</span>
+                        </span>
+                        <input id="sojourn-gold" type="radio" name="select-sojourn" value="sojourn-gold">
+                    </span>
+                </label>
+                <label for="sojourn-premium" class="d-flex mx-3 desktop-font-medium border">
+                    <span class="col-6 text-center px-3 py-1 border-end">Kailash 2021 - Diamond</span>
+                    <span class="col-6 text-center px-3 py-1 d-flex flex-column justify-content-center align-items-center orange">
+                        <span>
+                            <span class="price">USD</span>
+                            <span>$2.600</span>
+                        </span>
+                        <input id="sojourn-premium" type="radio" name="select-sojourn" value="sojourn-premium">
+                    </span>
+                </label>
+                <label for="sojourn-platinum" class="d-flex mx-3 desktop-font-medium border">
+                    <span class="col-6 text-center px-3 py-1 border-end">Kailash 2021 - Platinum</span>
+                    <span class="col-6 text-center px-3 py-1 d-flex flex-column justify-content-center align-items-center orange">
+                        <span>
+                            <span class="price">USD</span>
+                            <span>$3.000</span>
+                        </span>
+                        <input id="sojourn-platinum" type="radio" name="select-sojourn" value="sojourn-platinum">
+                    </span>
+                </label>
+            </div>
+            <div class="d-flex justify-content-center mt-5 my-3">
+                <button type="submit" class="desktop-font-medium px-4 py-2 register-btn fw-bold text-light">Submit</button>
+            </div>
+        </form>
+        <!-- START Register -->
+    </main>
+    <!-- START footer -->
+    <footer class="position-relative pt-5 px-4 pb-2 grey-color dark-footer">
+        <div class="medium-font-size desktop-font-normal text-center orange mb-4 fw-bold">
+            <span class="text-center">CONTACT US</span>
+        </div>
+        <div class="contact-us small-font-size">
+            <h4 class="container-fluid small-font-size desktop-font-normal fw-bold px-0">INDIA</h4>
+            <h4 class="container-fluid small-font-size desktop-font-normal fw-bold px-0">USA & CANADA</h4>
+            <h4 class="container-fluid small-font-size desktop-font-normal fw-bold px-0">SINGAPORE, MALAYSIA & AUSTRALIA</h4>
+            <div class="india-contact desktop-font-normal contact-info small-font-size">
+                <p class="mb-0"><span class="fw-bold">Tel:</span> +91 8144 123 123</p>
+                <p><span class="fw-bold">Mail:</span> info@sacredwalks.org</p>
+            </div>
+            <div class="usa-canada-contact desktop-font-normal contact-info small-font-size">
+                <p class="mb-0"><span class="fw-bold">Tel:</span> +1 612-562-9330</p>
+                <p><span class="fw-bold">Mail:</span> usa@sacredwalks.org</p>
+            </div>
+            <div class="sing-australia-contact desktop-font-normal contact-info small-font-size">
+                <p class="mb-0"><span class="fw-bold">Tel:</span> +65 8771 3634</p>
+                <p><span class="fw-bold">Mail:</span> sg@sacredwalks.org</p>
+            </div>
+        </div>
+        <div class="text-center fs-6">
+            <span class="text-center designed-by">Designed & Built by petumazo</span>
+        </div>
+    </footer>
+    <!-- END footer -->
+    <!-- Bootstrap scripts-->
+    <script src="js/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>
