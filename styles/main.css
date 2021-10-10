@@ -56,7 +56,8 @@ a {
 
 /* START Nav */
 .top-nav {
-  padding: 25px 30px 40px;
+  padding: 25px;
+  justify-content: flex-start;
 }
 
 .top-nav,
@@ -269,6 +270,10 @@ section,
     font-size: 1rem;
   }
 
+  .top-nav {
+    justify-content: space-around;
+  }
+
   .first-title {
     font-size: 4.5vw;
   }
@@ -292,4 +297,9 @@ section,
   }
 }
 
-/* START Desktop size */
+/* END Desktop size */
+
+
+.selected {
+  color: #f24b36;
+}
