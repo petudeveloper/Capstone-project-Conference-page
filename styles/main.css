@@ -58,9 +58,11 @@ a {
 .top-nav {
   padding: 25px;
   justify-content: flex-start;
+  opacity: 0.7;
+  background-color: white;
+  box-shadow: rgba(80, 79, 79, 0.24) 0px 3px 8px;
 }
 
-.top-nav,
 .main-info,
 .bg-tickets {
   background-color: rgba(245, 245, 245, 0.993);
@@ -272,6 +274,7 @@ section,
 
   .top-nav {
     justify-content: space-around;
+    opacity: 1;
   }
 
   .first-title {
