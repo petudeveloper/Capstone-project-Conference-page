@@ -118,7 +118,7 @@ section,
 }
 
 .big-tittle {
-  background-image: linear-gradient(rgba(117, 0, 0, 0.733) 0%,rgba(255, 119, 0, 0.788)54%, rgba(250,0,1,1) 100%), url(https://fondosmil.com/fondo/24126.jpg);
+  background-image: linear-gradient(rgba(117, 0, 0, 0.733) 0%, rgba(255, 119, 0, 0.788) 54%, rgba(250, 0, 1, 1) 100%), url(https://fondosmil.com/fondo/24126.jpg);
   -webkit-background-clip: text;
   color: transparent;
   font-weight: lighter;
@@ -139,7 +139,7 @@ section,
   border: solid 7px white;
 }
 
-.main-info-about{
+.main-info-about {
   background-color: white;
   border: 1px solid rgb(218, 218, 218);
 }
@@ -290,7 +290,7 @@ section,
     font-size: 1.2rem;
   }
 
-  .register-btn{
+  .register-btn {
     display: none;
   }
 
@@ -348,7 +348,6 @@ section,
 }
 
 /* END Desktop size */
-
 
 .selected {
   color: #f24b36;
