@@ -23,7 +23,7 @@ a {
 }
 
 .orange {
-  color: #ec5242;
+  color: #fa3c24;
 }
 
 .grey-color {
@@ -51,21 +51,21 @@ a {
 }
 
 .hover-orange:hover {
-  color: #ec5242;
+  color: #fa3c24;
 }
 
 /* START Nav */
 .top-nav {
   padding: 25px;
   justify-content: flex-start;
-  opacity: 0.7;
+  opacity: 0.6;
   background-color: white;
   box-shadow: rgba(80, 79, 79, 0.24) 0px 3px 8px;
 }
 
 .main-info,
 .bg-tickets {
-  background-color: rgba(245, 245, 245, 0.993);
+  background-color: rgba(248, 248, 248, 0.993);
 }
 
 footer,
@@ -87,6 +87,10 @@ footer,
   border: solid 1px rgb(231, 85, 18);
 }
 
+.register-btn-desktop {
+  display: none;
+}
+
 .register-btn:hover {
   color: #272a31;
   background-color: #f3f3f3;
@@ -101,7 +105,7 @@ footer,
 
 /* START main */
 .main-container {
-  margin-top: 170px;
+  margin-top: 10px;
 }
 
 section,
@@ -114,7 +118,7 @@ section,
 }
 
 .big-tittle {
-  background-image: linear-gradient(rgb(231, 85, 18), #aa22139f), url(https://fondosmil.com/fondo/24126.jpg);
+  background-image: linear-gradient(rgba(117, 0, 0, 0.733) 0%,rgba(255, 119, 0, 0.788)54%, rgba(250,0,1,1) 100%), url(https://fondosmil.com/fondo/24126.jpg);
   -webkit-background-clip: text;
   color: transparent;
   font-weight: lighter;
@@ -122,7 +126,7 @@ section,
 
 .big-title-size,
 .big-tittle {
-  font-size: 10vw;
+  font-size: 3em;
 }
 
 #main-info,
@@ -132,13 +136,23 @@ section,
 }
 
 .main-info {
-  border: solid 1px rgb(212, 212, 212);
+  border: solid 7px white;
+}
+
+.main-info-about{
+  background-color: white;
+  border: 1px solid rgb(218, 218, 218);
 }
 
 /* END  Main Program */
 
 .main-program {
   background-image: linear-gradient(#272a31ec, #272a31ec), url(../images/rombus.jpg);
+}
+
+.grid-main-program {
+  display: grid;
+  gap: 7px;
 }
 
 .container-icon-program {
@@ -171,6 +185,7 @@ section,
 .line-orange {
   width: 10vw;
   border-bottom: solid 1px #ec5242;
+  margin-bottom: 40px;
 }
 
 .container-speaker-img {
@@ -182,6 +197,8 @@ section,
 .square-background {
   grid-column: 1/10;
   grid-row: 1/10;
+  background-image: url(../images/squares.jpg);
+  background-size: contain;
 }
 
 .speacker-img {
@@ -255,6 +272,11 @@ section,
   height: 265px;
 }
 
+.grid-description-2 {
+  background-image: linear-gradient(rgba(145, 2, 2, 0.685), rgba(145, 2, 2, 0.685)), url(../images/kailash-1.jpg);
+  height: 265px;
+}
+
 /* END About */
 
 /* START Desktop size */
@@ -268,8 +290,24 @@ section,
     font-size: 1.2rem;
   }
 
+  .register-btn{
+    display: none;
+  }
+
+  .register-btn-desktop {
+    display: block;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+  }
+
   .desktop-font-normal {
     font-size: 1rem;
+  }
+
+  .main-info {
+    width: 70%;
+    line-height: 2;
   }
 
   .top-nav {
@@ -295,8 +333,17 @@ section,
     column-gap: 60px;
   }
 
+  .grid-main-program {
+    display: flex;
+    margin-right: 25px;
+  }
+
   .info-grid {
     border: solid 1px #ec5242;
+  }
+
+  .square-background {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.712), rgba(255, 255, 255, 0.712)), url(../images/squares.jpg);
   }
 }
 
