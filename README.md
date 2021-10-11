@@ -63,7 +63,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Inspired in a design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- Inspired in a design idea by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 
 ## 📝 License
