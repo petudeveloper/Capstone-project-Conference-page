@@ -60,7 +60,7 @@ a {
   justify-content: flex-start;
   opacity: 0.6;
   background-color: white;
-  box-shadow: rgba(80, 79, 79, 0.24) 0px 3px 8px;
+  box-shadow: rgba(80, 79, 79, 0.24) 0 3px 8px;
 }
 
 .main-info,
